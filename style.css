@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9)
+}
+
+.player {
+    text-align: center;
+    background: rgba(18, 18, 18, 11);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    
+}
+
+.cover {
+    width: 200px;
+    border-radius: 10px;
+    max-width: 300px;
+    padding: 10px;
+
+}
+
+.controls {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: white;
+    border-radius: 50px;
+}
+
+p {
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.95)
+}
+
+h3{
+    color: rgba(255, 255, 255, 0.95)
+}
+
+.love-btn {
+    font-size: 25px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: default;
+    margin-left: 10px;
+}
+
+.option-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    justify-content: left;
+    top: 9%;
+    margin-right: 10px;
+}
