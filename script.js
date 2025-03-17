@@ -4,7 +4,7 @@ const playButton = document.getElementById("play");
 playButton.addEventListener("click", () => {
     if (audio.paused) {
         audio.play();
-        playButton.textContent = "⏸";
+        playButton.textContent = "||";
     } else {
         audio.pause();
         playButton.textContent = "▶";
